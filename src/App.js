@@ -10,6 +10,7 @@ export default class App extends Component {
     return (
       <div>
         <MainNavigation />
+
         <Routes>
           <Route path='/' element={<WomenPage />}>
           </Route>

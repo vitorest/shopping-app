@@ -6,8 +6,9 @@ export default class ProductCard extends Component {
     return (
       <>
         <div className={classes.productCardContainer}>
+          <div>img here</div>
+          <div>Name and price</div>
         </div>
-
       </>
     )
   }
