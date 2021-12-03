@@ -1,0 +1,29 @@
+
+.navbarContainer {
+  height: 80px;
+  width: 1440px;
+}
+
+.linkList {
+  width: 202px;
+  height: 20px;
+  display:flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 117px;
+  margin-top: 28px;
+  text-transform: uppercase;
+}
+
+.linkName {
+  color: #1D1F22;
+  text-decoration: none;
+}
+
+.linkName:hover {
+  text-decoration: underline;
+  text-decoration-color: #5ECE7B;
+  text-underline-offset: 30px;
+}
